@@ -1,8 +1,9 @@
 import RouterClass from './router.js'
-import { sendEmail, sendSms, generateUser } from '../utils.js'
+// import { sendEmail, sendSms, generateUser } from '../utils.js'
 
 export default class productsRouter extends RouterClass {
   init() {
+    /*
     this.get('/mail', ['PUBLIC'], (req, res) => {
       const destinatary = 'tommypunk2004@gmail.com'
       const subject = 'Test email CODERHOUSE'
@@ -22,6 +23,6 @@ export default class productsRouter extends RouterClass {
         users.push(generateUser())
       }
       res.sendSuccess(users)
-    })
+    })*/
   }
 }
